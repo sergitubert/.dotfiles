@@ -1,0 +1,5 @@
+[wsl2]
+networkingMode=mirrored
+
+[automount]
+options = "metadata,umask=22,fmask=11"
