@@ -1,0 +1,3 @@
+source ~/.dotfiles/dots/bash/shell
+source ~/.dotfiles/dots/bash/aliases
+source ~/.dotfiles/dots/bash/init

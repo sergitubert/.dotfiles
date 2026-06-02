@@ -1,0 +1,5 @@
+source ~/.dotfiles/dots/bash/rc
+source ~/.dotfiles/dots/bash/prompt
+
+export EDITOR="nvim"
+export SUDO_EDITOR="nvim"
