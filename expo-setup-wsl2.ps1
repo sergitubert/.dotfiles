@@ -6,7 +6,7 @@
 
 #Requires -RunAsAdministrator
 
-$ExpoPortS = @(8081, 19000, 19001, 19002)
+$ExpoPortS = @(8081, 8082, 8083, 8084, 8085, 19000, 19001, 19002, 19003)
 $FirewallRuleName = "Expo WSL2 Dev Server"
 
 Write-Host ""
