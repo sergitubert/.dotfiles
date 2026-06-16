@@ -144,7 +144,7 @@ The script will prompt you for your **Git name** and **email**, then run everyth
 | [lazygit](https://github.com/jesseduffield/lazygit) | Terminal UI for Git |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | Terminal UI for Docker |
 | [GitHub CLI](https://cli.github.com/) | `gh` command + `gh-dash` extension |
-| [zellij](https://zellij.dev/) | Terminal multiplexer (auto-launches with the shell) |
+| [zellij](https://zellij.dev/) | Terminal multiplexer (auto-launches with the shell), configured with the built-in Vesper theme |
 | Cascadia Code NF | Nerd Font for WSL and Windows |
 | Dotfiles | Symlinks all configs in `dots/` to `~`, backing up any existing files |
 | Git config | Global aliases and settings configured |
@@ -162,7 +162,7 @@ The script will prompt you for your **Git name** and **email**, then run everyth
 - [zoxide](https://github.com/ajeetdsouza/zoxide) smart `cd` replacement (`z` command)
 - [fzf](https://github.com/junegunn/fzf) key bindings (`Ctrl+R` for history, `Ctrl+T` for files)
 - pnpm and mise on PATH
-- zellij auto-launches when opening a terminal
+- zellij auto-launches when opening a terminal, themed with the built-in Vesper color scheme
 
 ### Aliases
 

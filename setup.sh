@@ -32,7 +32,7 @@ log "Symlinking dotfiles…"
 
 symlink() {
   local src="$1" dst="$2"
-  if [ -f "$dst" ] && [ ! -L "$dst" ]; then
+  if [ -e "$dst" ] && [ ! -L "$dst" ]; then
     mv "$dst" "${dst}.bak"
     warn "Backed up existing $dst to ${dst}.bak"
   fi
@@ -41,6 +41,9 @@ symlink() {
 
 symlink "$DOTFILES_DIR/dots/bashrc"  "$HOME/.bashrc"
 symlink "$DOTFILES_DIR/dots/inputrc" "$HOME/.inputrc"
+
+mkdir -p "$HOME/.config"
+symlink "$DOTFILES_DIR/dots/zellij" "$HOME/.config/zellij"
 
 # ── Git configuration ─────────────────────────────────────────────────────────
 
